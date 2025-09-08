@@ -8,14 +8,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="images/ebac_logo.svg" alt="logo ebac">
-            <p class="hero__text">Venha para o meu aniversário que começa daqui 10d 20h 30m 35s</p>
+            <p class="hero__text">
+                Venha para o meu aniversário que começa em:
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Arena Corinthians - Itaquera - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de 100,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data</b>
+                        30/07 ás 19:10hrs
+                    </li>                                        
+                </ul>
+                <a class="button button--primary" href="#">Garanta sua vaga</a>
+            </div>
         </div>
     </header>
+    <section class="event event--info-festa" > 
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Minha festa</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique repellendus laborum explicabo. Sunt cupiditate dolor deleniti voluptates non itaque explicabo, culpa reprehenderit animi, accusamus repellendus iure in pariatur ea?</p>
+            </div>
+            <img class="event__image" src="images/logo 1.png" alt="Happy">
+        </div>
+    </section>
+        <section class="event event--info-festa2 event--image-left">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Minha festa 2</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique repellendus laborum explicabo. Sunt cupiditate dolor deleniti voluptates non itaque explicabo, culpa reprehenderit animi, accusamus repellendus iure in pariatur ea?</p>
+            </div>
+            <img class="event__image" src="images/logo 2.png" alt="Happy">
+        </div>
+    </section>
+            <section class="event event--info-festa3">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Minha festa 3</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique repellendus laborum explicabo. Sunt cupiditate dolor deleniti voluptates non itaque explicabo, culpa reprehenderit animi, accusamus repellendus iure in pariatur ea?</p>
+            </div>
+            <img class="event__image" src="images/fundo.png" alt="Happy">
+        </div>
+    </section>
+            <section class="event event--info-festa4 event--image-left">
+        <div class="container">
+            <div class="event__details" data-aos="fade-up">
+                <h2 class="event__details__title">Minha festa 4</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique repellendus laborum explicabo. Sunt cupiditate dolor deleniti voluptates non itaque explicabo, culpa reprehenderit animi, accusamus repellendus iure in pariatur ea?</p>
+            </div>
+            <img class="event__image" src="images/bolo.png" alt="Happy">
+        </div>
+    </section>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

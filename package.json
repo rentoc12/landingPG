@@ -4,12 +4,18 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html src/scripts/main.js src/style/main.scss",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.15.4"
+    "@parcel/transformer-sass": "^2.15.4",
+    "parcel": "^2.15.4",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.11"
   }
 }
